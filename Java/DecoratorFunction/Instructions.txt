@@ -1,0 +1,28 @@
+	To run my code you just simply run the "Main.java" file. This file contains test data to simulate the creation of the inventory and
+add various items such "apple", "chicken", and "ice cream", as well as decorating specific items.
+
+Step by step:
+
+1 - Initialize the inventory
+	example: Inventory testInventory = new Inventory("Test Inventory");
+
+2 - Create items for the inventory
+	example: Item iceCream = new Item(0, "ice cream", 100);
+
+3 - Turn items into an ItemDisplay
+	example: ItemDisplay iceCreamDisplay = new BasicItemDisplay(iceCream);
+
+4 - Add decorator if needed
+	example: ItemDisplay frozenIceCream = new FrozenItemDecorator(iceCreamDisplay);
+
+5 - Add new ItemDisplay to the inventory
+	example: testInventory.addItem(frozenIceCream);
+
+6 - Delete an item from the inventory
+	example: testInventory.deleteItem(frozenIceCream.getItemName());
+
+7 - Update an item's stock
+	example: testInventory.updateItemStock(frozenIceCream.getItemName(), 50));
+
+8 - Display inventory of items
+	example: testInventory.displayInventory();

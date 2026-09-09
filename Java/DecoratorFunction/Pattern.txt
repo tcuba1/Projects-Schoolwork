@@ -1,0 +1,3 @@
+	The pattern that I chose to implement into my code was the decorator pattern. This pattern provided my code witht he benefit of being able
+to add "decorations" or extra classifications to my "Item" objects. I used this pattern to allow the code to signify whether some items were chilled or 
+frozen.

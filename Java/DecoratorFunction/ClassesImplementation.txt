@@ -1,0 +1,9 @@
+"ItemDisplay" Class - interface component
+
+"BasicItemDisplay" Class - concrete component
+
+"ItemDisplayDecorator" Class - decorator
+
+"FrozenItemDecorator" Class - concrete decorator
+
+"ChilledItemDecorator" Class - concrete decorator
